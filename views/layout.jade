@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		title= title
+		//link(rel='stylesheet', href='/stylesheets.css')
+		link(rel='stylesheet', href='/css/bootstrap.min.css')
+		script(type='text/javascript', src='/socket.io/socket.io.js')
+		script(type='text/javascript', src='/javascripts/jquery-min.js')
+		script(type='text/javascript', src='/javascripts/main.js')
+		
+	body
+		block cabecera
+		block contenido
+		block pie_pagina

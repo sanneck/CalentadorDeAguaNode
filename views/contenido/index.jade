@@ -1,0 +1,78 @@
+//INDEX DE contenido
+
+center
+    .row
+    
+    .col-xs-3    
+       button.btn.btn-lg.btn-success(type='button',id="btn_prenderLed") Encender
+
+
+
+    .col-xs-3
+       button.btn.btn-lg.btn-danger(type='button',id="btn_apagarLed") Apagar
+
+
+
+    .col-xs-3
+        a.btn.btn-primary.btn-lg.active(type='submit', value='Asignar', id="boton")(href='#') Cambiar Temperatura
+        input(type="text", name="aa", id="aa",placeholder="TEMP en C°",style='border-color: #99b3ff')
+
+br
+br
+br
+br
+
+center
+  .row
+ 
+    .col-md-3
+       img.img-circle(src='http://thumbs.subefotos.com/3a833417ce386a8d8361e66d91f3350fo.jpg')
+
+
+    .col-md-6
+     table.table.table-striped
+       thead
+         tr
+          
+           th Nombre
+           th Estado
+          
+       tbody
+         tr
+           td Agua
+           td(id="agua")
+        
+         tr
+           td Temperatura Actual
+           td(id="temp")
+
+         tr
+           td Temperatura Maxima
+           td(id="tempMax")
+         
+
+
+br
+br
+
+center
+  .row
+ 
+    .col-md-3
+       h3 Historial
+
+
+    .col-md-6
+     table.table.table-striped
+       thead
+         tr
+          
+           th Fecha
+           th Hora
+          
+       tbody
+         tr
+           td
+           td
+         
+
