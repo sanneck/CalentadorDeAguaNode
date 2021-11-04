@@ -113,8 +113,8 @@ function enviarMail(mensaje){
   console.log("entra a la function");
 
   var server  = email.server.connect({
-   user:    "cocheschro@gmail.com", 
-   password: "nacional1", 
+   user:    "user1@gmail.com", 
+   password: "password", 
    host:    "smtp.gmail.com", 
    ssl: true
  });
@@ -122,9 +122,9 @@ function enviarMail(mensaje){
 
   var message = {
    text:    mensaje, 
-   from:    "you <cocheschro@gmail.com>", 
-   to:      "someone <josemariaschroeder@gmail.com>",
-   cc:      "else <njguibert@gmail.com>",
+   from:    "you <user1@gmail.com>", 
+   to:      "someone <user2@gmail.com>",
+   cc:      "else <user3@gmail.com>",
    subject: "actividad en el calentador de agua"
  };
 
